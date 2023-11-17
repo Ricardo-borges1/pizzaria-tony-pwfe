@@ -114,11 +114,11 @@ footer{
     color: azure;
     font-weight: bolder;
     text-shadow: 0.1em 0.1em 0.2em rgb(253, 93, 0);
-    margin-top: 10px;
+    margin-top: -30px;
 }
 
 .pizzas img{
-    width: 150px;
+    width: 120px;
 }
 .recomendados{
     display: flex;
@@ -133,7 +133,7 @@ footer{
 }
 
 .pizza img{
-    width: 150px;
+    width: 120px;
     margin-top: 0px;
     cursor: pointer;
    
@@ -141,7 +141,7 @@ footer{
 
 .titulo-bebida{
     color: azure;
-    margin-top: 2px;
+    margin-top: -30px;
     font-weight: bolder;
     text-shadow: 0.1em 0.1em 0.2em rgb(253, 93, 0);
     font-size: 15px;
