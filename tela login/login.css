@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-image: url(./img/Tela\ Inicialc.svg);
     background-repeat: no-repeat;
@@ -22,6 +26,7 @@ header {
     width: 100vw;
     height: 15vh;
     align-items: end;
+    
 }
 
 main {
@@ -69,7 +74,6 @@ main p {
     margin-bottom: 10px;
     font-size: 45px;
     width: 60%;
-    width: 200px;
     margin-top: 40px;
 }
 
