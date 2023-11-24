@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-image: url(./img/pizza4\ 1.svg);
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header img {
+    padding: 50px 25px;
+}
