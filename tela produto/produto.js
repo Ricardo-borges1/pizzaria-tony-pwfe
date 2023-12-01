@@ -2,7 +2,6 @@
 
 const title = document.getElementById('title')
 
-
 const title_text = document.getElementById('title_text')
 
 const text_title = document.getElementById('title_textLabel')
@@ -112,10 +111,6 @@ function criarComentario(infoComentarios) {
     container.appendChild(comentario)
 }
 infoComentarios.forEach(criarComentario)
-
-
-
-
 
 
 

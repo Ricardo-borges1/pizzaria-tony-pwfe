@@ -98,9 +98,56 @@ main{
     align-items: center;
 }
 
-.pizzas img{
+.pizza1{
     width: 150px;
-    border-radius: 8px;
+    height: 90px;
+    flex-shrink: 0;
+}
+
+.precos{
+    width: 57px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 10px 10px;
+    background: #F01212;
+    position: absolute;
+    left: 30px;
+    top: 290px;
+    z-index: 1;
+}
+
+.descricao{
+    width: 110px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 0px 8px;
+    background: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    top: 306px;
+}
+
+.conteudo{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    top: 310px;
+    left: 30 npx;
+
+}
+
+.valor{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    left: 36px;
+    top: 294px;
+    z-index: 2;
+
 }
 
 footer{
@@ -117,9 +164,7 @@ footer{
     margin-top: -30px;
 }
 
-.pizzas img{
-    width: 120px;
-}
+
 .recomendados{
     display: flex;
     flex-direction: column;
@@ -238,3 +283,14 @@ h2{
     font-size: 15px;
     margin-top: 10px;
 }
+
+.criarConta {
+    color: #F5F5F5;
+    position: absolute;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.50);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: 80px;
+    left: 120px;
+  }

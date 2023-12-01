@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img1{
+    background: url(./img/pizza.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 375px;
+    height: 220px;
+    flex-shrink: 0;
+    z-index: -3;
+    position: absolute;
+}
+
+.quadradoLaranja{
+    width: 375px;
+    height: 220px;
+    flex-shrink: 0;
+    background: rgba(252, 121, 0, 0.75);
+    
+}
+
+.voltar{
+    background-image: url(./img/voltar.png);
+    width: 12px;
+    height: 19.433px;
+    flex-shrink: 0;
+    z-index: 2;
+    position: absolute;
+    margin-top: 40px;
+    left: 20px;
+}
+
+.frase1{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 38px;
+    left: 60px;
+
+}
+
+.retanguloBranco{
+    border-radius: 32px;
+    position: fixed;
+    background: #ffffff;
+    width: 380px;
+    height: 220px;
+    flex-shrink: 0;
+    top: 200px;
+    z-index: 1;
+    
+   
+}
+
+.criarConta{
+    width: 303px;
+    height: 54px;
+    border-radius: 8px;
+    background: #15775a;
+    position: absolute;
+    bottom: 40px;
+    align-items: center;
+    left: 30px;
+}
+
+.frase3{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    z-index: 3;
+    bottom: 56px;
+    left: 140px;
+
+}
