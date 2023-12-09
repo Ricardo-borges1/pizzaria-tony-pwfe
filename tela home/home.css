@@ -98,10 +98,22 @@ main{
     align-items: center;
 }
 
+.pizzas{
+    display: flex;
+    flex-direction: row;
+
+}
 .pizza1{
+    width: 140px;
+    height: 90px;
+    flex-shrink: 0;
+    
+}
+.pizza2{
     width: 150px;
     height: 90px;
     flex-shrink: 0;
+    
 }
 
 .precos{
@@ -110,11 +122,14 @@ main{
     flex-shrink: 0;
     border-radius: 10px 10px 10px 10px;
     background: #F01212;
-    position: absolute;
     left: 30px;
     top: 290px;
+    position: absolute;
     z-index: 1;
 }
+
+
+
 
 .descricao{
     width: 110px;
@@ -126,29 +141,37 @@ main{
     top: 306px;
 }
 
+
+
 .conteudo{
     color: #FFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(236, 53, 53, 0.25);
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 1700;
     position: absolute;
     top: 310px;
-    left: 30 npx;
-
 }
+
+.conteudo p{
+    margin-left: 8px;
+}
+
 
 .valor{
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 700;
-    position: absolute;
     left: 36px;
     top: 294px;
+    position: absolute;
     z-index: 2;
-
 }
+
+
+
+
 
 footer{
     height: 8vh;
