@@ -8,7 +8,7 @@
     background: url(./img/pizza.png), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 358px;
+    width: 375px;
     height: 246px;
     flex-shrink: 0;
     z-index: -3;
@@ -16,7 +16,7 @@
 }
 
 .quadradoLaranja{
-    width: 360px;
+    width: 375px;
     height: 275px;
     flex-shrink: 0;
     background: rgba(252, 121, 0, 0.75);
@@ -82,7 +82,7 @@
     border-radius: 32px;
     position: fixed;
     background: #ffffff;
-    width: 360px;
+    width: 375px;
     height: 120px;
     flex-shrink: 0;
     top: 200px;
