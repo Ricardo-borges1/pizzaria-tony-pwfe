@@ -75,7 +75,7 @@ function criarComentario(infoComentarios) {
 
     const starsUsuario1 = document.createElement('img')
 
-    let estrelaImagem = "./img/Star Rate.svg"
+    let estrelaImagem = "./img/Star rate.svg"
     starsUsuario1.classList.add('star')
     starsUsuario1.src = estrelaImagem
 
